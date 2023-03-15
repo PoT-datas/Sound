@@ -38,6 +38,9 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.2.0'
 
     implementation "com.googlecode.mp4parser:isoparser:1.1.22"
+
+    //pot api
+    implementation project(':soundapi')
 }
 
 configurations.all {
